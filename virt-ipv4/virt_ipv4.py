@@ -6,6 +6,8 @@ import libvirt
 
 from xml.etree import ElementTree
 
+__author__ = 'Sparkness'
+
 
 class LibvirtConnector(object):
     def __init__(self, libvirtstring):
